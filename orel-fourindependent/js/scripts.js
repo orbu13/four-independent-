@@ -39,3 +39,12 @@ class Pizza {
 
       if (topping == "onion") {
         total += 2
+
+      } else if (topping == "garlic") {
+        total += 5
+      } else if (topping == "pineapple") {
+        total += 4
+      } else {
+        total += 1
+      }
+    }
