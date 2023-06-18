@@ -25,3 +25,10 @@ form.addEventListener("submit", event => {
   let price = pizza.calculateCost()
   priceELement.innerHTML = "total price is: " + price;
 })
+
+// Business Logic
+class Pizza {
+  constructor(toppings, size) {
+    this.toppings = toppings
+    this.size = size
+  }
