@@ -32,3 +32,10 @@ class Pizza {
     this.toppings = toppings
     this.size = size
   }
+  calculateCost() {
+    let total = 1;
+    for (let i = 0; i < this.toppings.length; i++) {
+      let topping = this.toppings[i]
+
+      if (topping == "onion") {
+        total += 2
