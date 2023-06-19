@@ -48,3 +48,9 @@ class Pizza {
         total += 1
       }
     }
+
+    total = total * this.size
+    console.log("total price for your pizza is " + total)
+    return total
+  }
+}
